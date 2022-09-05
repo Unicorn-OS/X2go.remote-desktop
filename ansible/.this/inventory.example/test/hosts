@@ -5,6 +5,7 @@ localhost
 ansible_connection=local
 ansible_user=me
 ansible_become_password=u
+ansible_python_interpreter=/usr/bin/python3
 
 [test]
 #192.168.1.2
@@ -13,6 +14,7 @@ ansible_become_password=u
 [test:vars]
 ansible_user=me
 ansible_become_password=u
+ansible_python_interpreter=/usr/bin/python3
 
 [node:children]
 local

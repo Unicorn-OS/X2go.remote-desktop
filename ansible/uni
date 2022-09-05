@@ -1,4 +1,5 @@
 ---
+# This sets up X2go on a remote node and lets you connect to it!
 - hosts: node
   gather_facts: yes
 
