@@ -1,0 +1,6 @@
+---
+- name: Install x2go server desktopsharing
+  ansible.builtin.apt:
+    pkg:
+    - x2goserver-desktopsharing
+  become: true

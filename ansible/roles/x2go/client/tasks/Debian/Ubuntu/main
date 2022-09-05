@@ -1,0 +1,6 @@
+---
+- name: Install x2go client
+  ansible.builtin.apt:
+    pkg:
+    - x2goclient
+  become: true

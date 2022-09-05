@@ -1,0 +1,13 @@
+---
+- hosts: node
+  gather_facts: yes
+
+  roles:
+  - x2go/server
+  - x2go/share local desktop
+
+- hosts: local
+  gather_facts: yes
+
+  roles:
+  - role: x2go/client
